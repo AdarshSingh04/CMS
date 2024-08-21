@@ -1,0 +1,9 @@
+{
+	"name": "singhada",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "31022462-d69b-467b-abf0-3078fc6a3daf",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
