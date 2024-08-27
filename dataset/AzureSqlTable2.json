@@ -1,8 +1,8 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "AzureSqlTable2",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSqlDatabase1",
+			"referenceName": "AzureSqlDatabase2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -14,13 +14,13 @@
 				"precision": 10
 			},
 			{
-				"name": "dname",
+				"name": "address",
 				"type": "varchar"
 			}
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "emp"
+			"table": "department"
 		}
 	}
 }
