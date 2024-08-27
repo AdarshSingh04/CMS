@@ -11,6 +11,9 @@
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
@@ -21,6 +24,15 @@
 			"value": "New Database"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Amdin"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "newdp.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "New Database"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
 			"value": "Amdin"
 		},
 		"containerUri": {
