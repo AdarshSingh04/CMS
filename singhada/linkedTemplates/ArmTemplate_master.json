@@ -47,6 +47,14 @@
 			"type": "string",
 			"defaultValue": "Amdin"
 		},
+		"AzureDataLakeStorage415_properties_privateLinkResourceId": {
+			"type": "string",
+			"defaultValue": "/subscriptions/d28092df-d200-4fa5-8d1d-69653cc6fddc/resourceGroups/Adarsh_/providers/Microsoft.Storage/storageAccounts/adarsh65478jh"
+		},
+		"AzureDataLakeStorage415_properties_groupId": {
+			"type": "string",
+			"defaultValue": "dfs"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -103,6 +111,12 @@
 					},
 					"AzureSqlDatabase2_properties_typeProperties_userName": {
 						"value": "[parameters('AzureSqlDatabase2_properties_typeProperties_userName')]"
+					},
+					"AzureDataLakeStorage415_properties_privateLinkResourceId": {
+						"value": "[parameters('AzureDataLakeStorage415_properties_privateLinkResourceId')]"
+					},
+					"AzureDataLakeStorage415_properties_groupId": {
+						"value": "[parameters('AzureDataLakeStorage415_properties_groupId')]"
 					}
 				}
 			},
