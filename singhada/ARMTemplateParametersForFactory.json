@@ -8,6 +8,9 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
@@ -15,6 +18,9 @@
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adarsh65478jh.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
@@ -35,10 +41,10 @@
 		"AzureSqlDatabase2_properties_typeProperties_userName": {
 			"value": "Amdin"
 		},
-		"AzureDataLakeStorage415_properties_privateLinkResourceId": {
+		"AzureDataLakeStorage979_properties_privateLinkResourceId": {
 			"value": "/subscriptions/d28092df-d200-4fa5-8d1d-69653cc6fddc/resourceGroups/Adarsh_/providers/Microsoft.Storage/storageAccounts/adarsh65478jh"
 		},
-		"AzureDataLakeStorage415_properties_groupId": {
+		"AzureDataLakeStorage979_properties_groupId": {
 			"value": "dfs"
 		}
 	}

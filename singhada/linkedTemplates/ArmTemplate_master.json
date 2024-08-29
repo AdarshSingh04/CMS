@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage1'"
 		},
+		"AzureDataLakeStorage2_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage2'"
+		},
 		"AzureSqlDatabase1_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AzureSqlDatabase1'"
@@ -20,6 +24,10 @@
 			"metadata": "Secure string for 'password' of 'AzureSqlDatabase2'"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adarsh65478jh.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
@@ -47,11 +55,11 @@
 			"type": "string",
 			"defaultValue": "Amdin"
 		},
-		"AzureDataLakeStorage415_properties_privateLinkResourceId": {
+		"AzureDataLakeStorage979_properties_privateLinkResourceId": {
 			"type": "string",
 			"defaultValue": "/subscriptions/d28092df-d200-4fa5-8d1d-69653cc6fddc/resourceGroups/Adarsh_/providers/Microsoft.Storage/storageAccounts/adarsh65478jh"
 		},
-		"AzureDataLakeStorage415_properties_groupId": {
+		"AzureDataLakeStorage979_properties_groupId": {
 			"type": "string",
 			"defaultValue": "dfs"
 		},
@@ -91,6 +99,9 @@
 					"AzureSqlDatabase2_password": {
 						"value": "[parameters('AzureSqlDatabase2_password')]"
 					},
+					"AzureDataLakeStorage2_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage2_accountKey')]"
+					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
@@ -112,11 +123,14 @@
 					"AzureSqlDatabase2_properties_typeProperties_userName": {
 						"value": "[parameters('AzureSqlDatabase2_properties_typeProperties_userName')]"
 					},
-					"AzureDataLakeStorage415_properties_privateLinkResourceId": {
-						"value": "[parameters('AzureDataLakeStorage415_properties_privateLinkResourceId')]"
+					"AzureDataLakeStorage979_properties_privateLinkResourceId": {
+						"value": "[parameters('AzureDataLakeStorage979_properties_privateLinkResourceId')]"
 					},
-					"AzureDataLakeStorage415_properties_groupId": {
-						"value": "[parameters('AzureDataLakeStorage415_properties_groupId')]"
+					"AzureDataLakeStorage979_properties_groupId": {
+						"value": "[parameters('AzureDataLakeStorage979_properties_groupId')]"
+					},
+					"AzureDataLakeStorage2_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage2_properties_typeProperties_url')]"
 					}
 				}
 			},
