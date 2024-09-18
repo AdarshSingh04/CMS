@@ -51,7 +51,7 @@
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> DEPART",
 				"EMP, DEPART join(EMP@id == DEPART@id,",
-				"     joinType:'right',",
+				"     joinType:'left',",
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
 				"     broadcast: 'auto')~> innerjoin",
