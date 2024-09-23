@@ -13,10 +13,6 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "Book1.xlsx",
 				"container": "output"
-			},
-			"compression": {
-				"type": "bzip2",
-				"level": "Optimal"
 			}
 		},
 		"schema": []
