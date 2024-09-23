@@ -9,7 +9,9 @@
 		"type": "Excel",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Fab.docx",
+				"container": "output"
 			}
 		},
 		"schema": []
