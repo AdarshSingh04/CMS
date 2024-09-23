@@ -12,6 +12,10 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "Fab.docx",
 				"container": "output"
+			},
+			"compression": {
+				"type": "bzip2",
+				"level": "Optimal"
 			}
 		},
 		"schema": []
