@@ -3,7 +3,18 @@
 	"properties": {
 		"type": "WranglingDataFlow",
 		"typeProperties": {
-			"sources": []
+			"sources": [
+				{
+					"name": "DelimitedText4",
+					"script": "source(allowSchemaDrift: true,\n\tvalidateSchema: false,\n\tignoreNoFilesFound: false) ~>  DelimitedText4",
+					"dataset": {
+						"referenceName": "DelimitedText4",
+						"type": "DatasetReference"
+					}
+				}
+			],
+			"script": "section Section1;\r\nshared DelimitedText4 = let AdfDoc = AzureStorage.BlobContents(\"https://adarsh65478jh.blob.core.windows.net/input/HP.txt\"),Csv = Csv.Document(AdfDoc, [Delimiter = \",\", Encoding = TextEncoding.Utf8, QuoteStyle = QuoteStyle.Csv]), PromotedHeaders = Table.PromoteHeaders(Csv, [PromoteAllScalars = true]) in  PromotedHeaders;\r\nshared UserQuery = let Source = #\"DelimitedText4\" in Source;\r\n",
+			"documentLocale": "en-us"
 		}
 	}
 }
