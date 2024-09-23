@@ -26,7 +26,7 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "AzureBlobStorageWriteSettings"
+							"type": "AzureBlobFSWriteSettings"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
@@ -52,7 +52,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText5",
+						"referenceName": "DelimitedText6",
 						"type": "DatasetReference"
 					}
 				]
