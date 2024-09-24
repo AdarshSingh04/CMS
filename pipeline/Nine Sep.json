@@ -16,12 +16,6 @@
 				"userProperties": [],
 				"typeProperties": {
 					"functionName": "",
-					"headers": {
-						"join df": {
-							"value": "@pipeline().parameters.join df",
-							"type": "Expression"
-						}
-					},
 					"method": "POST"
 				},
 				"linkedServiceName": {
