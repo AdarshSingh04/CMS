@@ -16,6 +16,12 @@
 				"userProperties": [],
 				"typeProperties": {
 					"functionName": "Access Token",
+					"headers": {
+						"join df": {
+							"value": "@pipeline().parameters.join df",
+							"type": "Expression"
+						}
+					},
 					"method": "GET"
 				},
 				"linkedServiceName": {
@@ -24,6 +30,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"join df": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
