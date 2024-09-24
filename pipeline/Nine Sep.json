@@ -15,7 +15,8 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"functionName": "Access Token"
+					"functionName": "Access Token",
+					"method": "GET"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureFunction1",
