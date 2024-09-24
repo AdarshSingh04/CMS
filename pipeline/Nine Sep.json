@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"functionName": "",
-					"method": "POST"
+					"method": "GET"
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureFunction1",
