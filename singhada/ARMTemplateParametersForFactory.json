@@ -5,10 +5,34 @@
 		"factoryName": {
 			"value": "singhada"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
 		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
 			"value": ""
 		},
 		"AzureSqlDatabase1_password": {
@@ -17,10 +41,37 @@
 		"AzureSqlDatabase2_password": {
 			"value": ""
 		},
+		"AzureSqlDatabase3_password": {
+			"value": ""
+		},
+		"Gen2_accountKey": {
+			"value": ""
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"linkedService2_connectionString": {
+			"value": ""
+		},
+		"linkedService3_connectionString": {
+			"value": ""
+		},
+		"linkedService4_connectionString": {
+			"value": ""
+		},
+		"AzureFunction1_functionKey": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adarsh65478jh.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adarsh65478jh.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
@@ -41,11 +92,26 @@
 		"AzureSqlDatabase2_properties_typeProperties_userName": {
 			"value": "Amdin"
 		},
+		"AzureSqlDatabase3_properties_typeProperties_server": {
+			"value": "newdp.database.windows.net"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_database": {
+			"value": "iSSSUE1"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_userName": {
+			"value": "Amdin"
+		},
+		"Gen2_properties_typeProperties_url": {
+			"value": "https://adarsh65478jh.dfs.core.windows.net/"
+		},
 		"AzureDataLakeStorage979_properties_privateLinkResourceId": {
 			"value": "/subscriptions/d28092df-d200-4fa5-8d1d-69653cc6fddc/resourceGroups/Adarsh_/providers/Microsoft.Storage/storageAccounts/adarsh65478jh"
 		},
 		"AzureDataLakeStorage979_properties_groupId": {
 			"value": "dfs"
+		},
+		"AzureFunction1_properties_typeProperties_functionAppUrl": {
+			"value": "https://demofunc1o.azurewebsites.net"
 		}
 	}
 }
