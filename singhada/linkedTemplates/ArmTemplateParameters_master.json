@@ -35,6 +35,9 @@
 		"AzureDatabricks1_accessToken": {
 			"value": ""
 		},
+		"AzureFunction1_functionKey": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
@@ -59,9 +62,6 @@
 		"linkedService4_connectionString": {
 			"value": ""
 		},
-		"AzureFunction1_functionKey": {
-			"value": ""
-		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
@@ -73,6 +73,9 @@
 		},
 		"AzureDataLakeStorage4_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
+		},
+		"AzureFunction1_properties_typeProperties_functionAppUrl": {
+			"value": "https://demofunc1o.azurewebsites.net"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "newdp.database.windows.net"
@@ -109,9 +112,6 @@
 		},
 		"AzureDataLakeStorage979_properties_groupId": {
 			"value": "dfs"
-		},
-		"AzureFunction1_properties_typeProperties_functionAppUrl": {
-			"value": "https://demofunc1o.azurewebsites.net"
 		},
 		"containerUri": {
 			"value": ""
