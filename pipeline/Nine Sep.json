@@ -15,14 +15,13 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"functionName": "Access Token",
+					"functionName": "",
 					"headers": {
 						"join df": {
 							"value": "@pipeline().parameters.join df",
 							"type": "Expression"
 						}
-					},
-					"method": "GET"
+					}
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureFunction1",
