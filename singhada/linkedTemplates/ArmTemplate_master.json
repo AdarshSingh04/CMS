@@ -95,6 +95,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'linkedService4'"
 		},
+		"linkedService5csv_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'linkedService5csv'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adarsh65478jh.dfs.core.windows.net/"
@@ -340,6 +344,9 @@
 					},
 					"linkedService4_connectionString": {
 						"value": "[parameters('linkedService4_connectionString')]"
+					},
+					"linkedService5csv_connectionString": {
+						"value": "[parameters('linkedService5csv_connectionString')]"
 					},
 					"AzureDataLakeStorage979_properties_privateLinkResourceId": {
 						"value": "[parameters('AzureDataLakeStorage979_properties_privateLinkResourceId')]"

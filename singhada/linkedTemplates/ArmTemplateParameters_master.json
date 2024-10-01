@@ -71,6 +71,9 @@
 		"linkedService4_connectionString": {
 			"value": ""
 		},
+		"linkedService5csv_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
