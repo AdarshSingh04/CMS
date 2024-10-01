@@ -1,0 +1,11 @@
+{
+	"name": "linkedService5csv",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://nese.blob.core.windows.net/nesecdc",
+			"authenticationType": "Anonymous"
+		}
+	}
+}
