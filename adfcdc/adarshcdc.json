@@ -7,16 +7,7 @@
 					{
 						"name": "dbo.citizen_input",
 						"properties": {
-							"schema": [
-								{
-									"name": "c_id",
-									"dataType": "integer"
-								},
-								{
-									"name": "c_name",
-									"dataType": "string"
-								}
-							],
+							"schema": [],
 							"dslConnectorProperties": [
 								{
 									"name": "schemaName",
@@ -33,14 +24,6 @@
 								{
 									"name": "netChanges",
 									"value": true
-								},
-								{
-									"name": "allowSchemaDrift",
-									"value": false
-								},
-								{
-									"name": "inferDriftedColumnTypes",
-									"value": false
 								}
 							]
 						}
@@ -106,14 +89,6 @@
 								{
 									"name": "folderPath",
 									"value": "dbo.citizen_input"
-								},
-								{
-									"name": "allowSchemaDrift",
-									"value": true
-								},
-								{
-									"name": "inferDriftedColumnTypes",
-									"value": true
 								}
 							]
 						}
@@ -167,34 +142,7 @@
 							"type": "linkedservicetype"
 						},
 						"attributeMappingInfo": {
-							"attributeMappings": [
-								{
-									"name": "c_id",
-									"type": "Direct",
-									"functionName": "",
-									"attributeReference": {
-										"name": "c_id",
-										"entity": "dbo.citizen_input",
-										"entityConnectionReference": {
-											"connectionName": "AzureSqlDatabase4",
-											"type": "linkedservicetype"
-										}
-									}
-								},
-								{
-									"name": "c_name",
-									"type": "Direct",
-									"functionName": "",
-									"attributeReference": {
-										"name": "c_name",
-										"entity": "dbo.citizen_input",
-										"entityConnectionReference": {
-											"connectionName": "AzureSqlDatabase4",
-											"type": "linkedservicetype"
-										}
-									}
-								}
-							]
+							"attributeMappings": []
 						}
 					}
 				],
