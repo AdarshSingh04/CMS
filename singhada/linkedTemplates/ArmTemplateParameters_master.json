@@ -20,6 +20,9 @@
 		"AzureBlobStorage5_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage6_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
@@ -30,6 +33,9 @@
 			"value": ""
 		},
 		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
 			"value": ""
 		},
 		"AzureDatabricks1_accessToken": {
@@ -45,6 +51,9 @@
 			"value": ""
 		},
 		"AzureSqlDatabase3_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase4_password": {
 			"value": ""
 		},
 		"Gen2_accountKey": {
@@ -72,6 +81,9 @@
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adarsh65478jh.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
 		"AzureFunction1_properties_typeProperties_functionAppUrl": {
@@ -103,6 +115,15 @@
 		},
 		"AzureSqlDatabase3_properties_typeProperties_userName": {
 			"value": "Amdin"
+		},
+		"AzureSqlDatabase4_properties_typeProperties_server": {
+			"value": "cdcserver7.database.windows.net"
+		},
+		"AzureSqlDatabase4_properties_typeProperties_database": {
+			"value": "csddb"
+		},
+		"AzureSqlDatabase4_properties_typeProperties_userName": {
+			"value": "Akshay"
 		},
 		"Gen2_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
