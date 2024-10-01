@@ -156,7 +156,7 @@
 			},
 			"mode": "Microbatch"
 		},
-		"status": "Started",
+		"status": "Starting",
 		"allowVNetOverride": false
 	}
 }
