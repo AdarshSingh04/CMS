@@ -85,6 +85,28 @@
 								{
 									"name": "tableName",
 									"value": "citizen_output"
+								},
+								{
+									"name": "keys",
+									"value": [
+										"c_id"
+									]
+								},
+								{
+									"name": "deletable",
+									"value": true
+								},
+								{
+									"name": "updateable",
+									"value": true
+								},
+								{
+									"name": "upsertable",
+									"value": true
+								},
+								{
+									"name": "defaultToUpsert",
+									"value": true
 								}
 							]
 						}
