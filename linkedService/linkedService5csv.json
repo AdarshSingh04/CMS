@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
-			"containerUri": "https://nese.blob.core.windows.net/drdew",
+			"containerUri": "https://strgacc211.blob.core.windows.net/cdcop",
 			"authenticationType": "Anonymous"
 		}
 	}
