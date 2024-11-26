@@ -2,7 +2,7 @@
 	"name": "singhada",
 	"properties": {
 		"globalConfigurations": {
-			"PipelineBillingEnabled": "false"
+			"PipelineBillingEnabled": "true"
 		}
 	},
 	"location": "centralindia",
