@@ -1,6 +1,12 @@
 {
 	"name": "singhada",
 	"properties": {
+		"globalParameters": {
+			"Para": {
+				"type": "int",
+				"value": 1
+			}
+		},
 		"globalConfigurations": {
 			"PipelineBillingEnabled": "true"
 		}
