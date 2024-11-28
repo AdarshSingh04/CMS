@@ -1,0 +1,21 @@
+{
+	"name": "TRG_ODSP_TKP_Files_DailyCuration_02152024",
+	"properties": {
+		"annotations": [
+			"deployedFromCICD"
+		],
+		"runtimeState": "Started",
+		"type": "TumblingWindowTrigger",
+		"typeProperties": {
+			"frequency": "Hour",
+			"interval": 24,
+			"startTime": "2024-02-15T00:00:00Z",
+			"delay": "01:45:00",
+			"maxConcurrency": 1,
+			"retryPolicy": {
+				"intervalInSeconds": 30
+			},
+			"dependsOn": []
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "workspacecontrolPlaneStorageLinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"servicePrincipalId": "7429f385-637e-442a-8ddb-25fc94ba65d2",
+			"tenant": "cdc5aeea-15c5-4db6-b079-fcadd2505dc2",
+			"subscriptionId": "46c31273-98ac-4739-a2f5-c0bf08d7d75f",
+			"resourceGroupName": "o365ccodspprodnam",
+			"azureCloudType": "AzurePublic",
+			"url": "https://o365ccodspprodnamcp.dfs.core.windows.net",
+			"servicePrincipalCredentialType": "ServicePrincipalCert",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "workspaceKeyVaultLinkedService",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "ADFServicePrincipalCertificate"
+			}
+		}
+	}
+}

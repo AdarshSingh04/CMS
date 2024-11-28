@@ -1,0 +1,40 @@
+{
+	"name": "DS_ADLSGen2_AdfNativeApproval_Template",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "workspacecontrolPlaneStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"BuildVersion": {
+				"type": "string"
+			},
+			"TemplateFileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [
+			"deployedFromCICD"
+		],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().TemplateFileName",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@{dataset().BuildVersion}/Archimedes/AdfParams",
+					"type": "Expression"
+				},
+				"fileSystem": "scenarioartifacts"
+			},
+			"columnDelimiter": "\t",
+			"escapeChar": "",
+			"quoteChar": ""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
