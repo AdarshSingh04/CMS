@@ -1,0 +1,22 @@
+{
+	"name": "ds_output_Azurefile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Sink_AzureFile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureFileStorageLocation",
+				"folderPath": "outputrepro"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

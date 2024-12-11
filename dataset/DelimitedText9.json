@@ -1,0 +1,32 @@
+{
+	"name": "DelimitedText9",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage6",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "file_to_share.csv",
+				"fileSystem": "reporo"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "arielarielariel@microsoft.com",
+				"type": "String"
+			},
+			{
+				"name": "badpassword!234@hey",
+				"type": "String"
+			}
+		]
+	}
+}
