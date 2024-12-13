@@ -1,0 +1,18 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage7",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "20241212032456itemCTP_share.dat",
+				"fileSystem": "drucila"
+			}
+		}
+	}
+}
