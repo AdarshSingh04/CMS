@@ -1,0 +1,10 @@
+{
+	"name": "AzureDataLakeStorage9",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adarsh65478jh.dfs.core.windows.net/"
+		}
+	}
+}
