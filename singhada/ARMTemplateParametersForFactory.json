@@ -23,6 +23,9 @@
 		"AzureBlobStorage6_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage7_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
@@ -38,7 +41,19 @@
 		"AzureDataLakeStorage5_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
 		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureFileStorage1_connectionString": {
 			"value": ""
 		},
 		"AzureFunction1_functionKey": {
@@ -59,6 +74,9 @@
 		"Gen2_accountKey": {
 			"value": ""
 		},
+		"LS_Sink_AzureFile_connectionString": {
+			"value": ""
+		},
 		"linkedService1_connectionString": {
 			"value": ""
 		},
@@ -73,6 +91,12 @@
 		},
 		"linkedService5csv_connectionString": {
 			"value": ""
+		},
+		"AzureDataExplorer1_properties_typeProperties_endpoint": {
+			"value": "https://adfcus.kusto.windows.net/"
+		},
+		"AzureDataExplorer1_properties_typeProperties_database": {
+			"value": "adfcus"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
@@ -89,8 +113,38 @@
 		"AzureDataLakeStorage5_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://nese.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://nese.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"value": "https://nese.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage9_properties_typeProperties_url": {
+			"value": "https://adarsh65478jh.dfs.core.windows.net/"
+		},
 		"AzureFunction1_properties_typeProperties_functionAppUrl": {
 			"value": "https://demofunc1o.azurewebsites.net"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://kpf.vault.azure.net/"
+		},
+		"AzureKeyVault2_properties_typeProperties_baseUrl": {
+			"value": "https://kpf.vault.azure.net/"
+		},
+		"AzureKeyVault3_properties_typeProperties_baseUrl": {
+			"value": "https://adakv1.vault.azure.net/"
+		},
+		"AzureKeyVault4_properties_typeProperties_baseUrl": {
+			"value": "https://adakv1.vault.azure.net/"
+		},
+		"AzureKeyVault5_properties_typeProperties_baseUrl": {
+			"value": "https://kpf.vault.azure.net/"
+		},
+		"AzureKeyVault6_properties_typeProperties_baseUrl": {
+			"value": "https://kpf.vault.azure.net/"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "newdp.database.windows.net"
@@ -131,11 +185,41 @@
 		"Gen2_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
+		"workspaceKeyVaultLinkedService_properties_typeProperties_baseUrl": {
+			"value": "https://o365ccodspkvprodnam.vault.azure.net/"
+		},
+		"workspaceSynapseLinkedService_properties_typeProperties_endpoint": {
+			"value": "https://synapsearchimedesprodnam.dev.azuresynapse.net"
+		},
+		"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://o365ccodspprodnamcp.dfs.core.windows.net"
+		},
+		"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_tenant": {
+			"value": "cdc5aeea-15c5-4db6-b079-fcadd2505dc2"
+		},
+		"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_servicePrincipalId": {
+			"value": "7429f385-637e-442a-8ddb-25fc94ba65d2"
+		},
+		"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_subscriptionId": {
+			"value": "46c31273-98ac-4739-a2f5-c0bf08d7d75f"
+		},
+		"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_resourceGroupName": {
+			"value": "o365ccodspprodnam"
+		},
 		"AzureDataLakeStorage979_properties_privateLinkResourceId": {
 			"value": "/subscriptions/d28092df-d200-4fa5-8d1d-69653cc6fddc/resourceGroups/Adarsh_/providers/Microsoft.Storage/storageAccounts/adarsh65478jh"
 		},
 		"AzureDataLakeStorage979_properties_groupId": {
 			"value": "dfs"
+		},
+		"AzureDataExplorer2_properties_typeProperties_endpoint": {
+			"value": "https://sdfs.eastus.kusto.windows.net"
+		},
+		"AzureDataExplorer2_properties_typeProperties_database": {
+			"value": "Test pipeline"
+		},
+		"default_properties_Para_value": {
+			"value": 1
 		}
 	}
 }
