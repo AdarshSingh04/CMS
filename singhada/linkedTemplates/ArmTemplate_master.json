@@ -131,6 +131,14 @@
 			"type": "string",
 			"defaultValue": "adfcus"
 		},
+		"AzureDataExplorer2_properties_typeProperties_endpoint": {
+			"type": "string",
+			"defaultValue": "https://sdfs.eastus.kusto.windows.net"
+		},
+		"AzureDataExplorer2_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "Test pipeline"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adarsh65478jh.dfs.core.windows.net/"
@@ -282,14 +290,6 @@
 		"AzureDataLakeStorage979_properties_groupId": {
 			"type": "string",
 			"defaultValue": "dfs"
-		},
-		"AzureDataExplorer2_properties_typeProperties_endpoint": {
-			"type": "string",
-			"defaultValue": "https://sdfs.eastus.kusto.windows.net"
-		},
-		"AzureDataExplorer2_properties_typeProperties_database": {
-			"type": "string",
-			"defaultValue": "Test pipeline"
 		},
 		"default_properties_Para_value": {
 			"type": "int",
@@ -537,6 +537,12 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureDataExplorer2_properties_typeProperties_endpoint": {
+						"value": "[parameters('AzureDataExplorer2_properties_typeProperties_endpoint')]"
+					},
+					"AzureDataExplorer2_properties_typeProperties_database": {
+						"value": "[parameters('AzureDataExplorer2_properties_typeProperties_database')]"
+					},
 					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_url": {
 						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_url')]"
 					},
@@ -580,12 +586,6 @@
 					},
 					"AzureDataLakeStorage979_properties_groupId": {
 						"value": "[parameters('AzureDataLakeStorage979_properties_groupId')]"
-					},
-					"AzureDataExplorer2_properties_typeProperties_endpoint": {
-						"value": "[parameters('AzureDataExplorer2_properties_typeProperties_endpoint')]"
-					},
-					"AzureDataExplorer2_properties_typeProperties_database": {
-						"value": "[parameters('AzureDataExplorer2_properties_typeProperties_database')]"
 					},
 					"AzureDataExplorer1_properties_typeProperties_endpoint": {
 						"value": "[parameters('AzureDataExplorer1_properties_typeProperties_endpoint')]"

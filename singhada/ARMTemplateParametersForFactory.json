@@ -98,6 +98,12 @@
 		"AzureDataExplorer1_properties_typeProperties_database": {
 			"value": "adfcus"
 		},
+		"AzureDataExplorer2_properties_typeProperties_endpoint": {
+			"value": "https://sdfs.eastus.kusto.windows.net"
+		},
+		"AzureDataExplorer2_properties_typeProperties_database": {
+			"value": "Test pipeline"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adarsh65478jh.dfs.core.windows.net/"
 		},
@@ -211,12 +217,6 @@
 		},
 		"AzureDataLakeStorage979_properties_groupId": {
 			"value": "dfs"
-		},
-		"AzureDataExplorer2_properties_typeProperties_endpoint": {
-			"value": "https://sdfs.eastus.kusto.windows.net"
-		},
-		"AzureDataExplorer2_properties_typeProperties_database": {
-			"value": "Test pipeline"
 		},
 		"default_properties_Para_value": {
 			"value": 1
