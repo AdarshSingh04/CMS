@@ -123,6 +123,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'linkedService5csv'"
 		},
+		"linkedsink_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'linkedsink'"
+		},
+		"linkedsouce_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'linkedsouce'"
+		},
 		"AzureDataExplorer1_properties_typeProperties_endpoint": {
 			"type": "string",
 			"defaultValue": "https://adfcus.kusto.windows.net/"
@@ -457,6 +465,12 @@
 					"linkedService5csv_connectionString": {
 						"value": "[parameters('linkedService5csv_connectionString')]"
 					},
+					"linkedsink_connectionString": {
+						"value": "[parameters('linkedsink_connectionString')]"
+					},
+					"linkedsouce_connectionString": {
+						"value": "[parameters('linkedsouce_connectionString')]"
+					},
 					"AzureKeyVault2_properties_typeProperties_baseUrl": {
 						"value": "[parameters('AzureKeyVault2_properties_typeProperties_baseUrl')]"
 					},
@@ -536,27 +550,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"AzureDataExplorer2_properties_typeProperties_endpoint": {
-						"value": "[parameters('AzureDataExplorer2_properties_typeProperties_endpoint')]"
-					},
-					"AzureDataExplorer2_properties_typeProperties_database": {
-						"value": "[parameters('AzureDataExplorer2_properties_typeProperties_database')]"
-					},
-					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_url": {
-						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_url')]"
-					},
-					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_tenant": {
-						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_tenant')]"
-					},
-					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_servicePrincipalId": {
-						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_servicePrincipalId')]"
-					},
-					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_subscriptionId": {
-						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_subscriptionId')]"
-					},
-					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_resourceGroupName": {
-						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_resourceGroupName')]"
 					}
 				}
 			},
@@ -580,6 +573,27 @@
 					},
 					"AzureDataLakeStorage2_accountKey": {
 						"value": "[parameters('AzureDataLakeStorage2_accountKey')]"
+					},
+					"AzureDataExplorer2_properties_typeProperties_endpoint": {
+						"value": "[parameters('AzureDataExplorer2_properties_typeProperties_endpoint')]"
+					},
+					"AzureDataExplorer2_properties_typeProperties_database": {
+						"value": "[parameters('AzureDataExplorer2_properties_typeProperties_database')]"
+					},
+					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_url": {
+						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_url')]"
+					},
+					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_tenant": {
+						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_tenant')]"
+					},
+					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_servicePrincipalId": {
+						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_servicePrincipalId')]"
+					},
+					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_subscriptionId": {
+						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_subscriptionId')]"
+					},
+					"workspacecontrolPlaneStorageLinkedService_properties_typeProperties_resourceGroupName": {
+						"value": "[parameters('workspacecontrolPlaneStorageLinkedService_properties_typeProperties_resourceGroupName')]"
 					},
 					"AzureDataLakeStorage979_properties_privateLinkResourceId": {
 						"value": "[parameters('AzureDataLakeStorage979_properties_privateLinkResourceId')]"

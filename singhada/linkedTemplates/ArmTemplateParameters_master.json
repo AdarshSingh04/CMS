@@ -92,6 +92,12 @@
 		"linkedService5csv_connectionString": {
 			"value": ""
 		},
+		"linkedsink_connectionString": {
+			"value": ""
+		},
+		"linkedsouce_connectionString": {
+			"value": ""
+		},
 		"AzureDataExplorer1_properties_typeProperties_endpoint": {
 			"value": "https://adfcus.kusto.windows.net/"
 		},
