@@ -8,7 +8,7 @@
 			}
 		},
 		"globalConfigurations": {
-			"PipelineBillingEnabled": "true",
+			"PipelineBillingEnabled": "false",
 			"PolicyValidationEnabled": "true"
 		}
 	},
