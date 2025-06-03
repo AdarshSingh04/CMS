@@ -1,0 +1,16 @@
+{
+	"name": "AzureDataExplorer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataExplorer",
+		"typeProperties": {
+			"endpoint": "https://sdfs.eastus.kusto.windows.net",
+			"database": "Test pipeline",
+			"credential": {
+				"referenceName": "credential3",
+				"type": "CredentialReference"
+			}
+		}
+	}
+}

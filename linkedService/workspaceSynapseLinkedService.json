@@ -1,0 +1,12 @@
+{
+	"name": "workspaceSynapseLinkedService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureSynapseArtifacts",
+		"typeProperties": {
+			"endpoint": "https://synapsearchimedesprodnam.dev.azuresynapse.net",
+			"authentication": "MSI"
+		},
+		"annotations": []
+	}
+}

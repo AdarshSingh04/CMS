@@ -1,0 +1,16 @@
+{
+	"name": "AzureTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedsink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "newout"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

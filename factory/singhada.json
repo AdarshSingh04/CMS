@@ -1,0 +1,27 @@
+{
+	"name": "singhada",
+	"properties": {
+		"globalParameters": {
+			"Para": {
+				"type": "int",
+				"value": 1
+			}
+		},
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "false",
+			"PolicyValidationEnabled": "true"
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "31022462-d69b-467b-abf0-3078fc6a3daf",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3",
+		"userAssignedIdentities": {
+			"/subscriptions/d28092df-d200-4fa5-8d1d-69653cc6fddc/resourcegroups/Adarsh_/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ManagedIden": {
+				"clientId": "2c94785f-aab3-4e99-b0cf-00d1a946ed60",
+				"principalId": "c06f92ec-9f58-436e-81eb-bc1a0359a189"
+			}
+		}
+	}
+}

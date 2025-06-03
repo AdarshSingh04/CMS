@@ -1,0 +1,11 @@
+{
+	"name": "AzureDataLakeStorage9",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adarsh65478jh.dfs.core.windows.net/"
+		}
+	}
+}

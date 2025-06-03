@@ -1,0 +1,16 @@
+{
+	"name": "AzureTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedsouce",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "new"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

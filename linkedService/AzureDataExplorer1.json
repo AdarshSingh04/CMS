@@ -1,0 +1,16 @@
+{
+	"name": "AzureDataExplorer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataExplorer",
+		"typeProperties": {
+			"endpoint": "https://adfcus.kusto.windows.net/",
+			"database": "adfcus",
+			"credential": {
+				"referenceName": "credential2",
+				"type": "CredentialReference"
+			}
+		}
+	}
+}

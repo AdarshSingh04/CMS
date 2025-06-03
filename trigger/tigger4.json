@@ -1,0 +1,17 @@
+{
+	"name": "tigger4",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2025-04-03T03:01:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
