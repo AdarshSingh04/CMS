@@ -11,5 +11,6 @@
 		"typeProperties": {
 			"tableName": "new"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

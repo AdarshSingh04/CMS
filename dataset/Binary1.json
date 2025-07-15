@@ -14,5 +14,6 @@
 				"fileSystem": "drucila"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

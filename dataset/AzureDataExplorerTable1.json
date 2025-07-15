@@ -11,5 +11,6 @@
 		"typeProperties": {
 			"table": "mytable"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

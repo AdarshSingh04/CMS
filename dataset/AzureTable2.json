@@ -11,5 +11,6 @@
 		"typeProperties": {
 			"tableName": "newout"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

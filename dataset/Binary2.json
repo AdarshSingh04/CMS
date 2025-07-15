@@ -13,5 +13,6 @@
 				"folderPath": "plsql"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

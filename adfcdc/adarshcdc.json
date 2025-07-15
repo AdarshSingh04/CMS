@@ -156,7 +156,8 @@
 			},
 			"mode": "Microbatch"
 		},
-		"status": "Started",
-		"allowVNetOverride": false
+		"status": "PipelineRunCreated",
+		"allowVNetOverride": false,
+		"id": "68ec5dd0f93e4574a1d89469141f04a1"
 	}
 }
